@@ -22,6 +22,7 @@ build_kernel() {
 CONFIG_THINLTO=y
 # CONFIG_LTO_NONE is not set
 CONFIG_LTO_CLANG=y
+# CONFIG_CC_WERROR is not set
 
 CONFIG_LOCALVERSION="-PrimeKernel"
     " >> arch/arm64/configs/temp_defconfig
